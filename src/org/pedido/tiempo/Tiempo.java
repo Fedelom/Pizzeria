@@ -15,7 +15,12 @@ import org.persona.cliente.Cliente;
  * @author Notebook3
  */
 public class Tiempo extends Pedido{
-
+    
+    private Tiempo tiempo;
+    private Tiempo hora;
+    private Tiempo minuto;
+    private Tiempo segundo;
+    
     public Tiempo() {
     }
 

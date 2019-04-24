@@ -1,0 +1,37 @@
+ibtn_aceptar
+ibtn_cancelar
+aceptar
+cancelar
+
+properties -> "text" cambia la vista para el usuario
+borrar el texto y agrandar
+
+jButton Aceptar/Cancelar
+
+
+code --> Variable = jlbl_nombredeclase
+
+                  = jtxt_nombredeclase
+                
+       		  = jbtn_nombredeclase
+
+Jbutton Events
+this.buttondispatch.event
+
+if (jtxt_nombre != null && jtxt_apellido != null && jtxt_dni != null && jtxt_direccion != null && jtxt_telefono != null)
+}
+
+else{
+
+}
+
+
+initComponents();
+this.setTitle("Formulario ");
+this.setLocation(400,220);
+
+
+
+fecha hora emision
+numero
+estadofactura

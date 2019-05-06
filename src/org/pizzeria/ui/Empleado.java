@@ -175,6 +175,7 @@ public class Empleado extends javax.swing.JFrame {
     private void jbtn_aceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbtn_aceptarActionPerformed
         if (jtxt_nombre != null && jtxt_apellido != null && jtxt_dni != null && jtxt_direccion != null && jtxt_telefono != null)
         System.err.print(in);{
+      
                         
     }//GEN-LAST:event_jbtn_aceptarActionPerformed
     }

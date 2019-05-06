@@ -36,6 +36,18 @@ public class EstadoPedido extends Pedido{
     public boolean esGenerada(){
         return nombre.equals("Generada");
     }
+    public boolean esRetirada(){
+        return nombre.equals("Retirada");
+    }
+    public boolean esDelivery(){
+        return nombre.equals("Entregada");
+    }
+    public boolean esRecibida(){
+        return nombre.equals("Recibida");
+    }
+    public boolean esCancelada(){
+        return nombre.equals("Fin");
+    }
 
     public int getNumeroEstado() {
         return numeroEstado;
@@ -61,4 +73,10 @@ public class EstadoPedido extends Pedido{
         this.descripcion = descripcion;
     }
        
+    @Override
+    public String toString() {
+        return this.nombre + this.descripcion + this.numeroEstado;
+    }  
+    
+    
 }

@@ -59,4 +59,9 @@ public class Pizza extends Pedido{
         this.variedadPizza = variedadPizza;
     }
 
+    @Override
+    public String toString() {
+        return this.numeroPizza + this.nombre + this.precio + this.variedadPizza;
+    }
+    
 }

@@ -58,12 +58,21 @@ public class Variedad extends Pedido{
         this.variedades = variedades;
     }
 
+    @Override
     public Tiempo getFechaHoraCreacion() {
         return fechaHoraCreacion;
     }
 
+    /**
+     *
+     * @param fechaHoraCreacion
+     */
+    @Override
     public void setFechaHoraCreacion(Tiempo fechaHoraCreacion) {
         this.fechaHoraCreacion = fechaHoraCreacion;
     }
-    
+    @Override
+    public String toString() {
+        return this.tamaño + this.tipodeingredientes + this.variedades;
+    }
 }

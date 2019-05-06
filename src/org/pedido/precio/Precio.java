@@ -58,12 +58,17 @@ public class Precio extends Pedido{
         this.oferta = oferta;
     }
 
+    @Override
     public Tiempo getFechaHoraCreacion() {
         return fechaHoraCreacion;
     }
 
+    @Override
     public void setFechaHoraCreacion(Tiempo fechaHoraCreacion) {
         this.fechaHoraCreacion = fechaHoraCreacion;
     }
-    
+    @Override
+    public String toString() {
+        return this.formadepago + this.tipodemoneda + this.oferta;
+    }
 }

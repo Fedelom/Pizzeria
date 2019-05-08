@@ -5,10 +5,16 @@
  */
 package org.pizzeria.dao;
 
+import org.pedido.variedad.variedadpizza.VariedadPizza;
+
 /**
  *
  * @author Notebook3
  */
 public interface VariedadPizzaDao {
+    
+    public VariedadPizza buscarPorNumeroVariedad (String numeroVariedad);
+    public VariedadPizza buscarPorIngredientes (String ingredientes);
+    public VariedadPizza buscarPorNombre (String nombre);
     
 }

@@ -5,10 +5,16 @@
  */
 package org.pizzeria.dao;
 
+import org.pizzeria.Pizzeria;
+
 /**
  *
  * @author Notebook3
  */
 public interface PizzeriaDao {
     
+   public Pizzeria buscarPorLocalidad  (String localidad);
+   public Pizzeria buscarPorHorarios (String horarios);
+   public Pizzeria buscarPorNumeroTelefono (String numerotelefono);
+   
 }

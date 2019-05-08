@@ -18,5 +18,5 @@ public interface ClienteDao {
     public Cliente buscarPorDni (String dni);
     public Cliente buscarPorTelefono (String telefono);
     public Cliente buscarPorDireccion (String direccion);
-        
+    public Cliente actualizarCliente (String nombre);
 }

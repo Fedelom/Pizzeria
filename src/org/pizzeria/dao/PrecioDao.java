@@ -5,10 +5,16 @@
  */
 package org.pizzeria.dao;
 
+import org.pedido.precio.Precio;
+
 /**
  *
  * @author Notebook3
  */
 public interface PrecioDao {
+    
+    public Precio buscarPorFormadePago (String formadepago);
+    public Precio buscarPorTipodeMoneda (String tipodemoneda);
+    public Precio buscarPorOferta (String oferta);
     
 }
